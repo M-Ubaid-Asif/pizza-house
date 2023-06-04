@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.main {
+  width: 100%;
+  height: 70vh;
+  border: 2px solid red;
+  background-color: bisque;
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: bisque;
+  padding: 0%;
+  margin: 0%;
+}
+@media only screen and (max-width: 400px) {
+  .logo {
+    display: none;
+  }
+}
+
+.css-hyum1k-MuiToolbar-root {
+  padding: 0%;
+}
